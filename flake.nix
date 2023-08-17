@@ -1,6 +1,9 @@
 {
   description = "FFLinuxPrint NixOS Flake";
 
+inputs = {
+	nixpkgs.url = "github:NixOS/nixpkgs/master";
+	};
   outputs = { self, nixpkgs }: {
 
 defaultPackage.x86_64-linux = 
